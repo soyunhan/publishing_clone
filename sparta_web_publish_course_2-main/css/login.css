@@ -1,0 +1,311 @@
+/* login 에서 swiper css 컨트롤 */
+.sc_user .tab_area .btn_prev.swiper-button-disabled,
+.sc_user .tab_area .btn_next.swiper-button-disabled {
+  height: 0;
+}
+
+.my_wrap {
+  width: 350px;
+  padding: 0 20px;
+  letter-spacing: -0.2px;
+}
+
+.my_cont {
+  border: 1px solid #dae1e6;
+}
+
+.sc_user {
+  background-color: #f7f9fa;
+}
+
+/* info_area */
+.sc_user .info_area {
+  overflow: hidden;
+  position: relative;
+  padding: 17px 17px 9px;
+}
+
+.sc_user .info_area .btn_logout {
+  position: absolute;
+  top: 17px;
+  right: 17px;
+  padding: 6px 10px 6px 11px;
+  background-color: #ccd0d4;
+  -webkit-border-radius: 14px;
+  border-radius: 14px;
+  font-size: 11px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.sc_user .info_area .user_thumb {
+  float: left;
+  position: relative;
+  margin-right: 16px;
+}
+
+.sc_user .info_area .user_thumb > img {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.sc_user .info_area .thumb_bd {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.08;
+  filter: alpha(opacity=8);
+  border: 1px solid #000;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.sc_user .info_area .user_thumb:after {
+  position: absolute;
+  right: -3px;
+  bottom: -1px;
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background-position: -253px -183px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  content: "";
+}
+
+.sc_user .info_area .user_info {
+  overflow: hidden;
+}
+
+.sc_user .info_area .user_info .info_box {
+  padding-right: 60px;
+  line-height: 18px;
+}
+
+.sc_user .info_area .user_info .link_set {
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.sc_user .info_area .user_info .link_set .nickname {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  max-width: 85px;
+  vertical-align: top;
+}
+
+.sc_user .info_area .user_info .link_my {
+  font-size: 11px;
+  color: #505050;
+}
+
+.sc_user .info_area .user_info .link_my:before {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  margin: 0 7px 0 3px;
+  background-color: #dae1e6;
+  vertical-align: -1px;
+}
+
+.sc_user .info_area .user_info .link_protect:before {
+  display: inline-block;
+  width: 9px;
+  height: 13px;
+  background-position: -282px -85px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  content: "";
+  margin: 0 3px;
+  vertical-align: -1px;
+}
+
+.sc_user .info_area .user_info .email {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-top: 1px;
+  color: grey;
+}
+
+.sc_user .info_area .user_info .new_box {
+  overflow: hidden;
+  margin-top: 3px;
+  color: #404040;
+}
+
+.sc_user .info_area .user_info .link_new {
+  float: left;
+}
+
+.sc_user .info_area .user_info .num {
+  margin-left: 4px;
+  color: #03c75a;
+}
+
+.sc_user .info_area .user_info .link_new + .link_new {
+  margin-left: 15px;
+}
+
+/* tab_area */
+.sc_user .tab_area {
+  position: relative;
+}
+
+.sc_user .tab_area .btn_prev {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background-position: -109px -13px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  position: absolute;
+  top: 13px;
+  left: -20px;
+  z-index: 10;
+  transition: height 0.3s;
+}
+
+.sc_user .tab_area .btn_next {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background-position: -36px -50px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  position: absolute;
+  top: 13px;
+  right: -20px;
+  z-index: 10;
+  transition: height 0.3s;
+}
+
+.sc_user .tab_area .tab_scroll {
+  overflow: hidden;
+  height: 51px;
+}
+
+.sc_user .tab_area.tab_fold .tab_scroll {
+  height: 50px;
+}
+
+.sc_user .tab_area .tab_box_wrap:after {
+  content: "";
+  display: table;
+  table-layout: fixed;
+  clear: both;
+}
+
+.sc_user .tab_area .tab_box {
+  float: left;
+  margin-top: 9px;
+  width: 348px;
+  height: 40px;
+  border: 1px solid #e4e8eb;
+  border-width: 1px 0;
+  font-size: 0;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.sc_user .tab_area.tab_fold .tab_box {
+  border-bottom: 0;
+}
+
+.sc_user .tab_area .tab {
+  display: inline-block;
+  position: relative;
+  width: 69px;
+  height: 16px;
+  padding: 13px 0 11px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: top;
+}
+
+.sc_user .tab_area .tab[aria-selected=true] {
+  margin-bottom: -1px;
+  padding-bottom: 12px;
+  background-color: #fff;
+}
+
+.sc_user .tab_area .tab:first-child {
+  width: 68px;
+}
+
+.sc_user .tab_area .tab + .tab {
+  border-left: 1px solid #e4e8eb;
+}
+
+.sc_user .tab_area .tab_box.type_under5 .tab:last-child {
+  border-right: 1px solid #e4e8eb;
+}
+
+.sc_user .tab_area .tab_set:before {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background-position: -282px -72px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  content: "";
+  margin: 2px 6px 0 0;
+}
+
+.sc_user .tab_area .badge_box {
+  position: absolute;
+  top: -10px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+.sc_user .tab_area .badge_new {
+  display: inline-block;
+  min-width: 6px;
+  height: 18px;
+  padding: 0 6px;
+  background-color: #1fd771;
+  background-image: -webkit-linear-gradient(
+    300deg,
+    #1fd771,
+    #20d771 50%,
+    #22d7b0
+  );
+  background-image: linear-gradient(150deg, #1fd771, #20d771 50%, #22d7b0);
+  -webkit-border-radius: 18px;
+  border-radius: 18px;
+  font-size: 10px;
+  line-height: 18px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0;
+  -webkit-box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+  vertical-align: top;
+}
+
+.sc_user .tab_area .tab[aria-selected=true] .badge_new {
+  background-color: #ff5757;
+  background-image: none;
+}
+
+/* sc_service */
+.sc_service .service_wrap {
+  height: 321px;
+  font-size: 2rem;
+  line-height: initial;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  color: #03c75a;
+}

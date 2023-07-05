@@ -1,0 +1,379 @@
+/* group_title */
+.sc_themecast .group_title {
+  overflow: hidden;
+  padding-bottom: 17px;
+}
+
+.theme-swiper {
+  overflow: hidden;
+}
+
+.sc_themecast .group_title .title_area {
+  float: left;
+}
+
+.sc_themecast .group_title .title_area .title {
+  font-size: 14px;
+  color: #000;
+}
+
+.sc_themecast .group_title .title_area .dsc {
+  margin-left: 8px;
+  color: grey;
+}
+
+.sc_themecast .group_title .info_area {
+  float: right;
+}
+
+.sc_themecast .group_title .info_area .info {
+  color: grey;
+}
+
+.sc_themecast .group_title .info_area .new {
+  color: #000;
+}
+
+.sc_themecast .group_title .info_area .btn_set {
+  position: relative;
+  margin-left: 14px;
+  color: #505050;
+}
+
+.sc_themecast .group_title .info_area .btn_set:before {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background-position: -213px -337px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  content: '';
+  margin-right: 4px;
+  vertical-align: -1px;
+  opacity: 0.7;
+}
+
+.sc_themecast .group_title .info_area .btn_set:hover:before {
+  opacity: 1;
+}
+
+.sc_themecast .group_title .info_area .btn_set:after {
+  position: absolute;
+  top: 2px;
+  left: -8px;
+  content: '';
+  width: 1px;
+  height: 12px;
+  background-color: #e4e8eb;
+}
+
+/* theme_fix_wrap */
+.sc_themecast .main_category {
+  position: relative;
+}
+
+.pm_btn_prev {
+  position: absolute;
+  left: -22px;
+  z-index: 10;
+}
+
+.sc_themecast .main_category .pm_btn_prev {
+  top: 6px;
+  left: -23px;
+}
+
+.pm_btn_prev .ico_btn {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-position: -128px -352px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+.pm_btn_next {
+  position: absolute;
+  right: -13px;
+  z-index: 10;
+}
+
+.sc_themecast .main_category .pm_btn_next {
+  top: 6px;
+  right: -18px;
+}
+
+.pm_btn_next .ico_btn {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-position: -86px -352px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+.sc_themecast .main_category .list_category {
+  position: relative;
+  background-color: #fff;
+}
+
+.sc_themecast .main_category .list_category:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  border: 1px solid #dae1e6;
+}
+
+.sc_themecast .main_category .list_category:after {
+  content: '';
+  display: table;
+  table-layout: fixed;
+  clear: both;
+}
+
+.sc_themecast .main_category .category_item {
+  position: relative;
+  float: left;
+  width: 94px;
+  z-index: 1;
+}
+
+.sc_themecast .main_category .category_item:first-child {
+  width: 92px;
+}
+
+.sc_themecast .main_category .tab {
+  display: block;
+  border-right: 1px solid #dae1e6;
+  font-size: 13px;
+  line-height: 49px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+.sc_themecast .main_category .tab[aria-selected='true'] {
+  position: relative;
+  margin: 0 -1px;
+  border-radius: 1px;
+  box-shadow: 0 3px 6px 0 #00000029;
+}
+
+.sc_themecast .main_category .tab.id_enter:hover {
+  color: #e65da0;
+}
+
+.sc_themecast .main_category .tab.id_enter[aria-selected='true'] {
+  background-color: #e65da0;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_sports:hover {
+  color: #0147b5;
+}
+
+.sc_themecast .main_category .tab.id_sports[aria-selected='true'] {
+  background-color: #0147b5;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_cargame:hover {
+  color: #4a94e1;
+}
+
+.sc_themecast .main_category .tab.id_cargame[aria-selected='true'] {
+  background-color: #4a94e1;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_bboom:hover {
+  color: #66c971;
+}
+
+.sc_themecast .main_category .tab.id_bboom[aria-selected='true'] {
+  background-color: #66c971;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_finance:hover {
+  color: #35ae5e;
+}
+
+.sc_themecast .main_category .tab.id_finance[aria-selected='true'] {
+  background-color: #35ae5e;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_living:hover {
+  color: #ebaa00;
+}
+
+.sc_themecast .main_category .tab.id_living[aria-selected='true'] {
+  background-color: #ebaa00;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_gameapp:hover {
+  color: #5bb8e1;
+}
+
+.sc_themecast .main_category .tab.id_gameapp[aria-selected='true'] {
+  background-color: #5bb8e1;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_movie:hover {
+  color: #1a2f63;
+}
+
+.sc_themecast .main_category .tab.id_movie[aria-selected='true'] {
+  background-color: #1a2f63;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_job:hover {
+  color: #d34f12;
+}
+
+.sc_themecast .main_category .tab.id_job[aria-selected='true'] {
+  background-color: #d34f12;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_ittech:hover {
+  color: #486b95;
+}
+
+.sc_themecast .main_category .tab.id_ittech[aria-selected='true'] {
+  background-color: #486b95;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_travel:hover {
+  color: #55ccc1;
+}
+
+.sc_themecast .main_category .tab.id_travel[aria-selected='true'] {
+  background-color: #55ccc1;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_science:hover {
+  color: #225ac6;
+}
+
+.sc_themecast .main_category .tab.id_science[aria-selected='true'] {
+  background-color: #225ac6;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_livinghome:hover {
+  color: #c08d31;
+}
+
+.sc_themecast .main_category .tab.id_livinghome[aria-selected='true'] {
+  background-color: #c08d31;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_health:hover {
+  color: #0fb54c;
+}
+
+.sc_themecast .main_category .tab.id_health[aria-selected='true'] {
+  background-color: #0fb54c;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_business:hover {
+  color: #007ec8;
+}
+
+.sc_themecast .main_category .tab.id_business[aria-selected='true'] {
+  background-color: #007ec8;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_wedding:hover {
+  color: #ee909e;
+}
+
+.sc_themecast .main_category .tab.id_wedding[aria-selected='true'] {
+  background-color: #ee909e;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_culture:hover {
+  color: #42be6f;
+}
+
+.sc_themecast .main_category .tab.id_culture[aria-selected='true'] {
+  background-color: #42be6f;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_momkids:hover {
+  color: #eabf01;
+}
+
+.sc_themecast .main_category .tab.id_momkids[aria-selected='true'] {
+  background-color: #eabf01;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_law:hover {
+  color: #1c3091;
+}
+
+.sc_themecast .main_category .tab.id_law[aria-selected='true'] {
+  background-color: #1c3091;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_beauty:hover {
+  color: #8449ca;
+}
+
+.sc_themecast .main_category .tab.id_beauty[aria-selected='true'] {
+  background-color: #8449ca;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_animal:hover {
+  color: #955f0e;
+}
+
+.sc_themecast .main_category .tab.id_animal[aria-selected='true'] {
+  background-color: #955f0e;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_design:hover {
+  color: #5853a0;
+}
+
+.sc_themecast .main_category .tab.id_design[aria-selected='true'] {
+  background-color: #5853a0;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_china:hover {
+  color: #7e251b;
+}
+
+.sc_themecast .main_category .tab.id_china[aria-selected='true'] {
+  background-color: #7e251b;
+  color: #fff;
+}
+
+.sc_themecast .main_category .tab.id_farm:hover {
+  color: #6acc59;
+}
+
+.sc_themecast .main_category .tab.id_farm[aria-selected='true'] {
+  background-color: #6acc59;
+  color: #fff;
+}

@@ -1,0 +1,77 @@
+/* image setting  sp_my */
+.sc_user .info_area .user_info .link_protect:before,
+.sc_user .tab_area .btn_prev,
+.sc_user .tab_area .btn_next,
+.sc_user .tab_area .tab_set:before {
+  /* 네이버 이미지 사용 */
+  /* background-image: url(https://s.pstatic.net/static/www/img/uit/2020/sp_my.png); */
+  /* 로컬 이미지 사용 */
+  background-image: url("../img/sp_my.png");
+  -webkit-background-size: 316px 279px;
+  background-size: 316px 279px;
+  background-repeat: no-repeat;
+}
+
+/* image setting sp_main */
+.sc_timesquare .card_stock .rate_up:before,
+.sc_timesquare .card_stock.type_exchange .name:before,
+.sc_timesquare .card_nav .btn_prev:before,
+.sc_timesquare .card_nav .btn_next:before {
+  /* 네이버 이미지 사용 */
+  /* background-image: url(https://s.pstatic.net/static/www/img/uit/2021/sp_main_57f073.png); */
+  /* 로컬 이미지 사용 */
+  background-image: url("../img/sp_main.png");
+  -webkit-background-size: 444px 439px;
+  background-size: 444px 439px;
+  background-repeat: no-repeat;
+}
+
+/* image setting sp_shop */
+.shop_wrap .group_shop .link_mall:after,
+.shop_wrap .sale_area:after,
+.shop_wrap .shop_coach,
+.shop_wrap .shop_coach.type_solid,
+.shop_wrap .shop_control .btn_next:before,
+.shop_wrap .shop_control .btn_next:hover:before,
+.shop_wrap .shop_control .btn_prev:before,
+.shop_wrap .shop_control .btn_prev:hover:before,
+.shop_wrap .shop_error .ico_error,
+.shop_wrap .shop_header .link_shop .ls_link:after,
+.shop_wrap .shop_header .link_shop .ls_link:before,
+.shop_wrap .shop_page .btn_next:before,
+.shop_wrap .shop_page .btn_next:hover:before,
+.shop_wrap .shop_page .btn_prev:before,
+.shop_wrap .shop_page .btn_prev:hover:before {
+  /* 네이버 이미지 사용 */
+  /* background-image: url(https://s.pstatic.net/static/www/img/uit/2021/sp_shop_bffdc9.png); */
+  /* 로컬 이미지 사용 */
+  background-image: url(../img/sp_shop.png);
+  -webkit-background-size: 107px 78px;
+  background-size: 107px 78px;
+  background-repeat: no-repeat;
+}
+
+/* 네이버 우측영역 가장큰 div 박스 */
+.column_right {
+  float: right;
+  width: 350px;
+}
+
+.column_fix_wrap {
+  position: relative;
+  width: 350px;
+  background-color: #fff;
+}
+
+.column_right.is_tfixed .column_fix_wrap {
+  position: fixed;
+  top: 70px;
+  bottom: auto;
+  margin-top: 20px;
+}
+
+/* 로그인 */
+.sc_my {
+  width: 390px;
+  margin-left: -20px;
+}

@@ -1,0 +1,93 @@
+/* reset */
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+li,
+ol,
+p,
+select,
+table,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+button,
+input {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+}
+
+html {
+  font-size: 10px;
+  line-height: 10px;
+}
+
+address,
+em {
+  font-style: normal;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+#warp {
+  width: 100%;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 1130px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+#header .logo {
+  width: 243px;
+  left: -95px;
+  position: relative;
+}
+
+#main_content {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 1130px;
+  padding: 20px 30px;
+  margin: 0 auto;
+  letter-spacing: -.2px;
+}

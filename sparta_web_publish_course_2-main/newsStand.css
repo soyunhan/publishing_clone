@@ -1,0 +1,54 @@
+/* swiper-pagination customizing */
+.swiper-pagination {
+  position: static;
+}
+
+/* image setting  sp_main */
+.sc_newscast .group_issue .link_media:after,
+.sc_newscast .group_issue .direct_area .link_olympic:before,
+.sc_newscast .group_title .link_newsstand:before,
+.sc_newscast .group_title .link_newsstand:after,
+.sc_newscast .group_title .ico_list,
+.sc_newscast .group_title .btn_set.set_on .ico_tile,
+.sc_newscast .group_title .ico_tile,
+.sc_newscast .group_title .ico_set,
+.pm_btn_prev_l .ico_btn,
+.pm_btn_next_l .ico_btn,
+.sc_newscast .list_view .media_box .btn_plus:before {
+  /* 네이버 이미지 사용 */
+  /* background-image: url(https://s.pstatic.net/static/www/img/uit/2021/sp_main_57f073.png); */
+  /* 로컬 이미지 사용 */
+  background-image: url(./img/sp_main.png);
+  -webkit-background-size: 444px 439px;
+  background-size: 444px 439px;
+  background-repeat: no-repeat;
+}
+
+/* 최상단 div #NM_INT_LEFT */
+.column_left {
+  width: 750px;
+  letter-spacing: -0.2px;
+}
+
+/* #newsstand.sc_newscast */
+.sc_newscast {
+  width: 750px;
+}
+
+/* 구독한 언론사 초기에 안 보여주기 */
+#NM_NEWSSTAND_MY_EMPTY{
+  display: none;
+}
+
+/* NM_NEWSSTAND_DEFAULT_THUMB */
+/* thumb 영역 */
+#NM_NEWSSTAND_DEFAULT_THUMB.group_news{
+  display: none;
+  border-width: 1px;
+  font-size: 32px;
+  line-height: normal;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #03c75a;
+}
