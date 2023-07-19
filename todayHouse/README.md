@@ -4,4 +4,4 @@
 
 # jpg === jpeg
 
-# Rester Image and vecter Image
+# Rester Image and vector Image
