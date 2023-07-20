@@ -17,3 +17,5 @@
 # https://icomoon.io/app/#/select
 
 # Favicon https://realfavicongenerator.net/
+
+# resetCss https://meyerweb.com/eric/tools/css/reset/, https://necolas.github.io/normalize.css/
