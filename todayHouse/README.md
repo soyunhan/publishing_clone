@@ -15,3 +15,5 @@
 # SVG - ie(6,7,8)대응 사용안됨
 
 # https://icomoon.io/app/#/select
+
+# Favicon https://realfavicongenerator.net/
