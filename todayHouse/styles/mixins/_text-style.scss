@@ -34,6 +34,7 @@
   letter-spacing: $letter-spacing-24;
 }
 
+
 @mixin text-style($size, $color: false) {
   @if ($size == 12) {
     @include text-style-12;
