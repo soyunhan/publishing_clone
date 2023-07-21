@@ -1,9 +1,23 @@
+@import './constants/colors';
+@import './constants/typography';
+@import './constants/breakpoints';
+@import './constants/box-shadows';
+@import './constants/z-indexes';
+@import './constants/dimensions';
+@import './constants/grids';
+
 @import './base/fonts';
+@import './base/globals';
+@import './base/normalize';
+@import './base/reset';
 
-p {
-  color: red;
-}
+@import './mixins/text-style';
+@import './mixins/responsive';
+// @import './mixins/positions';
+// @import './mixins/flexbox';
+// @import './mixins/scrollbar';
+// @import './mixins/star-rating';
+// @import './mixins/line-clamp';
+// @import './mixins/truncate';
 
-* {
-  font-family: 'Noto Sans KR', sans-serif;
-}
+@import './layouts/grids';
